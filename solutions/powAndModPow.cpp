@@ -24,7 +24,6 @@ ll modpow(ll x, ll n, ll m) {
 
 const ll MOD = 1e8 + 7;
 int main() {
-    cout << pow(2, 61) << '\n';
-    cout << modpow(2, 61, MOD) << '\n';
+    cout << (1 << 2 | 1);
     return 0;
 }
