@@ -13,7 +13,7 @@ int main() {
         cin >> x;
         s1 += x;
     }
-    s2 = a[0];
+    s1 -= a[0];
     
     for(int i = 0; i < n-1; ++i) {
         s1 -= a[i + 1];
